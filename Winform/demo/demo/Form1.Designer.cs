@@ -58,7 +58,7 @@
             this.panel3.Controls.Add(this.btn_eraser);
             this.panel3.Controls.Add(this.btn_bucket);
             this.panel3.Controls.Add(this.btn_pencil);
-            this.panel3.Location = new System.Drawing.Point(118, 5);
+            this.panel3.Location = new System.Drawing.Point(116, 5);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(132, 132);
             this.panel3.TabIndex = 3;
