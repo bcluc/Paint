@@ -21,5 +21,15 @@ namespace demo
         {
 
         }
+
+        private void btn_marker_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
