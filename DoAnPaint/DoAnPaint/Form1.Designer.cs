@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
@@ -99,8 +97,6 @@
             this.lbLocation = new System.Windows.Forms.Label();
             this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.ptbDrawing = new System.Windows.Forms.PictureBox();
-            this.panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
             this.panel7.SuspendLayout();
@@ -144,28 +140,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ptbDrawing)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.Control;
-            this.panel6.Controls.Add(this.pictureBox31);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(0, 636);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1280, 152);
-            this.panel6.TabIndex = 18;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.Image = global::DoAnPaint.Properties.Resources.ic_apple;
-            this.pictureBox31.Location = new System.Drawing.Point(618, 3);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(40, 40);
-            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox31.TabIndex = 0;
-            this.pictureBox31.TabStop = false;
-            this.toolTip2.SetToolTip(this.pictureBox31, "Shutdown");
-            this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
             // panel1
             // 
@@ -910,7 +884,6 @@
             this.ClientSize = new System.Drawing.Size(1280, 788);
             this.Controls.Add(this.pictureBox33);
             this.Controls.Add(this.lbLocation);
-            this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ptbDrawing);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -920,8 +893,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAINT";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            this.panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
@@ -1026,8 +997,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.PictureBox pictureBox31;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSave;
